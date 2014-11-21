@@ -1,3 +1,4 @@
+%{?_javapackages_macros:%_javapackages_macros}
 Name:           jsch-agent-proxy
 Version:        0.0.7
 Release:        6%{?dist}
@@ -6,7 +7,7 @@ License:        BSD
 URL:            http://www.jcraft.com/jsch-agent-proxy/
 BuildArch:      noarch
 
-Source0:        https://github.com/ymnk/jsch-agent-proxy/archive/%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Source0:        https://github.com/ymnk/jsch-agent-proxy/archive/%{name}-%{version}.tar.gz
 
 BuildRequires:  maven-local
 BuildRequires:  mvn(com.jcraft:jsch)
