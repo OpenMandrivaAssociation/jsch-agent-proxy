@@ -1,7 +1,8 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           jsch-agent-proxy
 Version:        0.0.7
-Release:        6%{?dist}
+Release:        6.1
+Group:		Development/Java
 Summary:        Proxy to ssh-agent and Pageant in Java
 License:        BSD
 URL:            http://www.jcraft.com/jsch-agent-proxy/
@@ -18,7 +19,7 @@ BuildRequires:  mvn(net.schmizz:sshj)
 BuildRequires:  mvn(org.apache.felix:maven-bundle-plugin)
 BuildRequires:  mvn(org.apache.maven.plugins:maven-source-plugin)
 BuildRequires:  mvn(org.apache.maven.wagon:wagon-ssh-external)
-BuildRequires:  mvn(org.sonatype.oss:oss-parent)
+BuildRequires:  mvn(org.sonatype.oss:oss-parent:pom:)
 
 %description
 jsch-agent-proxy is a proxy program to OpenSSH ssh-agent and Pageant
