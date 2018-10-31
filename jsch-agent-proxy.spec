@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:           jsch-agent-proxy
 Version:        0.0.7
-Release:        6.1
+Release:        6.2
 Group:		Development/Java
 Summary:        Proxy to ssh-agent and Pageant in Java
 License:        BSD
