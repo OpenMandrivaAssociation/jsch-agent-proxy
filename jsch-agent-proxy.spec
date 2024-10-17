@@ -5,7 +5,7 @@ Release:        6.3
 Group:		Development/Java
 Summary:        Proxy to ssh-agent and Pageant in Java
 License:        BSD
-URL:            http://www.jcraft.com/jsch-agent-proxy/
+URL:            https://www.jcraft.com/jsch-agent-proxy/
 BuildArch:      noarch
 
 Source0:        https://github.com/ymnk/jsch-agent-proxy/archive/%{name}-%{version}.tar.gz
